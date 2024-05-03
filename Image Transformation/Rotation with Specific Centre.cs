@@ -8,11 +8,11 @@ private Bitmap RotateImage(Bitmap bmp, float angle, Point Centre_WRT_picBox, Poi
 
     using (Graphics g = Graphics.FromImage(rotatedImage))
     {
-        // Set the rotation point to the center in the matrix
+         //move object so that the point which it actually rotates from (which is the top left corner) is at the centre of rotation in the picture box / container
         g.TranslateTransform(Centre_WRT_picBox.X, Centre_WRT_picBox.Y);
         // Rotate
         g.RotateTransform(angle);
-        // Restore rotation point in the matrix
+        // move obeject back so that the centre of rotation of the image is in the location of the centre of roatation in the picture box
         g.TranslateTransform(-Centre_WRT_IMG.X, -Centre_WRT_IMG.Y);
         // Draw the image on the bitmap
         g.DrawImage(bmp, new Point(0, 0));
@@ -30,4 +30,4 @@ private Bitmap RotateImage(Bitmap bmp, float angle, Point Centre_WRT_picBox, Poi
 // Centre_WRT_IMG : the location of the center of rotation on the Image
 // pic_Box_size : the size of the image
 
-// NOTE: This snippet is not perfected and does need modifications for allignment of the image
+// NOTE: you need modifications for allignment of the image
