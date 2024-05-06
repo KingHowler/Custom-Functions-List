@@ -8,6 +8,7 @@
 
 ## C++ Functions
 
-1. primeTest : Inputs a Number and returns true if the number is a Prime Number and returns false if not. Theory.txt file included
+3. primeTest : Inputs a Number and returns true if the number is a Prime Number and returns false if not. Includes a Text File containing the Theory for the test and optimisation.
 
+## Contact Me
 If you have any unique Functions designed than please send them to me for including in this at "m.umarshahbaz.2007@gmail.com". I intend to make this a one stop all you need.
