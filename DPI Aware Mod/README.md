@@ -7,6 +7,6 @@ To solve this issue, you let the program use your windows software to find out t
 
 #### The Solution
 - In the properties of the ```Form``` Set ```Auto Scaling``` to ```DPI```
-- Now go to ```program,cs``` and replace the function ```main()``` with the code given in "DPI Aware.cs"
+- Now go to ```program.cs``` and replace the function ```main()``` with the code given in "DPI Aware.cs"
 
--- NOTE: In Line 10, replace ```Form1``` with the name of the form to be openend first.
+-- NOTE: In Line 10, replace ```Form1``` with the name of the form to be opened first
