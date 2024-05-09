@@ -3,7 +3,7 @@
 bool primeTest (int Number) {
   int CheckNum = static_cast<int>(sqrt(Number));
 
-  if (((Number % 2) == 0) && ((Number % 3) == 0) && (Number <= 3)) {
+  if (((Number % 2) == 0) || ((Number % 3) == 0) || (Number <= 3)) {
     return false;
   }
   else {
