@@ -3,9 +3,10 @@
 bool primeTest (int Number) {
   int CheckNum = static_cast<int>(sqrt(Number));
 
-  if (((Number % 2) == 0) || ((Number % 3) == 0) || (Number <= 3)) {
+  if (((Number % 2) == 0) || ((Number % 3) == 0) || (Number <= 1)) {
     return false;
   }
+  if (Number <= 3) {return true;}
   else {
     for (int c = 5; c <= CheckNum; c = c + 6) {
       if ((Number % c) == 0 || ((Number % (c+2)) == 0)) {
