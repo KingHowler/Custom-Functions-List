@@ -8,7 +8,8 @@
 
 ## C++ Functions
 
-3. primeTest : Inputs a Number and returns true if the number is a Prime Number and returns false if not. Includes a Text File containing the Theory for the test and optimisation.
+3. findFactorialBase : Inputs an Integer as a factorial and finds it's base. ```Input = n! (finds n)```
+4. primeTest : Inputs an Integer and returns true if the number is a Prime Number and returns false if not. Includes a Text File containing the Theory for the test and optimisation.
 
 ## Contact Me
 If you have any unique Functions designed than please send them to me for including in this at "m.umarshahbaz.2007@gmail.com". I intend to make this a one stop all you need.
