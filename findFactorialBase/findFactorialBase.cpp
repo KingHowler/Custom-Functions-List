@@ -1,4 +1,4 @@
-int baseFind(int factorial) {
+int findFactorialBase(int factorial) {
   if (factorial < 1) {return -1;}
   int base = 1;
   if (factorial % base != 0) {return -1;}
