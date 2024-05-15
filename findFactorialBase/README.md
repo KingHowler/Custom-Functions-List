@@ -16,7 +16,6 @@ In order to reverse this you need to invert the process, meaning the instead of 
             n = (((((n! ÷ 1) ÷ 2) ÷ 3) ÷ 4) ÷ ......... ÷ (n-1))
 <br><br><br>
 ## Shaping the code
-<br><br>
 ### Start by deciding the output
 - For a number which is a factorial, result in the base
 - For a number which is not a factorial, result -1 (meaning null)
@@ -25,7 +24,7 @@ In order to reverse this you need to invert the process, meaning the instead of 
 - A factorial can't result in Negative numbers or 0 so :-
 
         if (factorial < 1) {return -1;}
-<br><br>
+
 ### Now identify loops
 - The factorial is being sequentially divided by an increasing number until it is just 1 less than n, a post condition loop is suitable for this
 
@@ -45,5 +44,3 @@ In this case whenever the value in ```factorial``` can't be divided by that of `
 This can be done by using a divisibility check at each iteration of the loop
 
     if (factorial % base != 0) {return -1;}
-
-#### Start Teting!
