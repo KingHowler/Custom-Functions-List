@@ -17,3 +17,4 @@
    3. randomChar   : Inputs Generator Mode and generates a random character from 'a' to 'z' and 'A' to 'Z'
 ## Contact us
 If you have any general purpose functions which may be useful to others as well, we would appreciate that you support us in expanding this repository by sending your custom functions at [r/TheModulusArchives](https://www.reddit.com/r/TheModulusArchives/) or by initiating a pull request.
+If you want you also send requests for a function, we will write a short and concise code in C++. Including a README.md file with proper description so you can write it in your own language as well.
