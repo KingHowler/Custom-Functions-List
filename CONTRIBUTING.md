@@ -13,3 +13,12 @@ If you wish to add a function of your own to this repository your function needs
 #### Make your changes
   - Once you have a working function you can add it to the forked repository. Make sure that it is in a proper location eg. ```python/maths/finding the factors/findFactors.py``` <br> You are allowed to make new folders to
 #### Initiate a Pull Request
+  - In your forked repository, find the "Contribute" dropdown and click it.
+  - Choose "Open pull request" from the dropdown, indicated by a green button.
+  -Give a proper title and description to the pull request
+    - The title should be the name of the function.<br> In the description you need to specify the language, as well as a breif explanation of what the function is for.
+  - Once done, click "Create pull request".
+
+#### Reviewing and merging
+  - Now the pull request will be reviewed by the moderators
+  - If it meets the requirements mentioned previously then it will be merged with the main branch of the repository
